@@ -1,0 +1,19 @@
+:root {
+    --main-color: #E5E5E5;
+    --second-color: #02577A;
+    --third-color: #C4C4C4;
+    --fourth-color: #F7F6FF;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: yellow;
+}

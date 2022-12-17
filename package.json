@@ -1,0 +1,19 @@
+{
+  "name": "01-simple-desig",
+  "version": "1.0.0",
+  "description": "BIT logo, simple design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Inga Gudaite",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
