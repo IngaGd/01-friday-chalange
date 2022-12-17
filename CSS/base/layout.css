@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    height: 100vh;
+
+}
+
+.container-left {
+    width: 100px;
+    display: flex;
+    background-color: var(--second-color);
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.container-right > .main-content {
+    display: flex;
+
+}
+
+.container-right > footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
