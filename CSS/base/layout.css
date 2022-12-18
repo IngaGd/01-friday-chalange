@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100vh;
+
+}
+
+.container-left {
+    width: 100px;
+    display: flex;
+    background-color: var(--second-color);
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.container-right > .main-content {
+    flex: 1;
+
+}
+
+.container-right > footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
