@@ -13,32 +13,83 @@
 
 .main-nav {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    width: 100%;
 }
 
 .link {
-    visibility: hidden;
+    color: var(--third-color);
 }
 
-.container-left:hover .link {
-    visibility: visible;
+.main-nav img {
+    width: 25px;
+    margin-left: calc((100px - 25px)/2);
+    margin-top: 34px;
+}
+
+.main-nav > .gamepad {
+    width: 40px;
+    height: 25px;
+    margin-left: calc((100px - 40px)/2);
+}
+
+.main-nav a {
+    display: none;
+    text-decoration: none;
+    margin-top: 34px;
+    margin-left: 16px;
+}
+
+.container-left:hover a {
+    display: inline;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.container-left:hover > .underline {
+    width: 128.22px;
+}
+
+.container-left:hover {
+    width: 206px;
 }
 
 .main-icon {
     margin-top: 31.97px;
     margin-right: 0;
-    border: 2px solid black;
+    border-radius: 25px 0px 0px 25px;
     width: 89px;
     height: 57px;
-    border-radius: 25px 0px 0px 25px;
     display: flex;
-    align-items: center;
     justify-content: center;
-
+    align-items:center;
+    margin-left: 11px;
+    background-color: var(--fith-color);
 }
 
-.icon {
+.home-icon {
     width: 25px;
 }
+
+.main-icon > .link {
+    display: none;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.main-icon > .link {
+    color: var(--fourth-color);
+}
+
+
+.main-icon > .link:hover {
+    text-decoration: underline;
+}
+
+.container-left:hover .main-icon {
+    width: 195px;
+}
+
+
