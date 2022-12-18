@@ -1,0 +1,114 @@
+.logo {
+    width: 68px;
+    align-self: center;
+    padding-top: 52px;
+}
+
+.underline {
+    width: 62.24px;
+    border: 2px solid var(--third-color);
+    align-self: center;
+    margin-top: 24.03px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.link {
+    color: var(--third-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-nav img {
+    width: 25px;
+    margin-left: calc((100px - 25px)/2);
+    margin-top: 34px;
+}
+
+.main-nav > .gamepad {
+    width: 40px;
+    height: 25px;
+    margin-left: calc((100px - 40px)/2);
+}
+
+.main-nav a {
+    display: none;
+    text-decoration: none;
+    margin-top: 34px;
+    margin-left: 16px;
+}
+
+.container-left:hover a {
+    display: inline;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.container-left:hover > .underline {
+    width: 128.22px;
+}
+
+.container-left:hover {
+    width: 206px;
+}
+
+.main-icon {
+    margin-top: 31.97px;
+    margin-right: 0;
+    border-radius: 25px 0px 0px 25px;
+    width: 89px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 11px;
+    background-color: var(--fith-color);
+}
+
+.home-icon {
+    width: 25px;
+}
+
+.main-icon > .link {
+    display: none;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.main-icon > .link {
+    color: var(--fourth-color);
+}
+
+
+.main-icon > .link:hover {
+    text-decoration: underline;
+}
+
+.container-left:hover .main-icon {
+    width: 195px;
+}
+
+.container-right > footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 346px; 
+    height: 1px; 
+    background-color: var(--fourth-color); 
+  }
+
+  .main-footer {
+    padding: 11px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+  }
