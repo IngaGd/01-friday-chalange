@@ -13,18 +13,17 @@ body {
 .container-right {
     display: flex;
     flex-direction: column;
-    justify-self: flex-start;
     width: 100%;
     background-color: var(--main-color);
 }
 
 .container-right > .main-content {
-    display: flex;
+    flex: 1;
 
 }
 
 .container-right > footer {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
 }
