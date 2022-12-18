@@ -8,13 +8,10 @@ body {
     width: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: var(--second-color);
-    overflow: hidden;
-    transition: all 0.3s;
-}
-
-.container-left:hover {
-    width: 206px;
+    transition: all 0.5s;
 }
 
 .container-right {
