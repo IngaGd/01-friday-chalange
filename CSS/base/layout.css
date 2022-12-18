@@ -7,7 +7,14 @@ body {
 .container-left {
     width: 100px;
     display: flex;
+    flex-direction: column;
     background-color: var(--second-color);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.container-left:hover {
+    width: 206px;
 }
 
 .container-right {
