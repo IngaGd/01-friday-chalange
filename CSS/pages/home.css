@@ -1,0 +1,44 @@
+.logo {
+    width: 68px;
+    align-self: center;
+    padding-top: 52px;
+}
+
+.underline {
+    width: 62.24px;
+    border: 2px solid var(--third-color);
+    align-self: center;
+    margin-top: 24.03px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link {
+    visibility: hidden;
+}
+
+.container-left:hover .link {
+    visibility: visible;
+}
+
+.main-icon {
+    margin-top: 31.97px;
+    margin-right: 0;
+    border: 2px solid black;
+    width: 89px;
+    height: 57px;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 25px;
+}
